@@ -1,1 +1,2 @@
 # Easter-Date-Calculator
+This GitHub repository hosts a sophisticated web application designed to predict Easter dates based on user input. Leveraging Python for backend calculations and HTML for frontend presentation, this project showcases the application of advanced mathematical formulas in a user-friendly interface. Offering precise results and intuitive navigation, this application exemplifies professionalism and technical prowess. Explore the seamless integration of programming and mathematics as you effortlessly predict Easter dates for any desired year
