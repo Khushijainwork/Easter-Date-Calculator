@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="container">
+    <div class="title">Easter Date Calculator</div><br/>
+    <div class="detailss">Please enter year to find out when easter falls</div>
+    <div class="content">
+      <form action="cgi-bin/easterdates.py" method="get">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Year</span>
+            <input type="number" placeholder="Enter year" name="year" required>
+          </div>
+     
+        </div>
+        <div class="date-details">
+          <input type="radio" name="datefilter" id="dot-1" checked value="numerical"> 
+          <input type="radio" name="datefilter" id="dot-2" value="words">
+          <input type="radio" name="datefilter" id="dot-3" value="both">
+          <span class="date-title">Formatting of the Date</span>
+          <div class="category">
+            <label for="dot-1">
+            <span class="dot one"></span>
+            <span class="date">Numerically</span>
+          </label>
+          <label for="dot-2">
+            <span class="dot two"></span>
+            <span class="date">Words</span>
+          </label>
+          <label for="dot-3">
+            <span class="dot three"></span>
+            <span class="date">Both</span>
+            </label>
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
